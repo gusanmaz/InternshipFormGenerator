@@ -38,7 +38,7 @@ after singed by internship committee members
 * Go
 * Linux system (May also work on MacOS or Windows but not tested yet)
 
-## Installation
+## Installation & Usage
 
 ``` 
 go get -u https://github.com/gusanmaz/InternshipFormGenerator
