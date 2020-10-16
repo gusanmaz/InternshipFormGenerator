@@ -41,9 +41,7 @@ after singed by internship committee members
 ## Installation
 
 ``` 
-git clone https://github.com/gusanmaz/InternshipFormGenerator
-cd InternshipFormGenerator
-go install
+go get -u https://github.com/gusanmaz/InternshipFormGenerator
 InternshipFormGenerator config config.yaml
 ```
 
