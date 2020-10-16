@@ -24,7 +24,7 @@ Unfortunately students didn't conform to a single standard when they filled this
 Some students to choose to capitalize their surnames but not everyone.
 There was variability between font family, font size and text color choices.
 Added to that form was a docx Word document :man_facepalming: It was really annoying to see
-one page document rendered in multiple pages when you open it using Libre Office.
+one page document rendered in multiple pages when you open it using LibreOffice.
 
 If information about necessary information is recorded in a CSV file in proper way,
 this program generates painful-to-work forms automatically as PDF files and 
