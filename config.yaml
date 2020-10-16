@@ -1,0 +1,73 @@
+# Internship forms and internship dispatch are saved into this directory
+outputDirPath: 'Output/'
+
+# Do not change these values unless you know what you are doing
+formTemplateFilePath: 'templates/form.fodt'
+formTemplateFileName: 'form.fodt'
+dispatchTemplateFilePath: 'templates/dispatch.fodt'
+dispatchTemplateFileName: 'dispatch.fodt'
+
+# All student internship data is read from a CSV file resides at CSVFilePath
+CSVFilePath: 'internships.csv'
+
+# If integrityCheck is set to true, all rows will be compared with JSON data fetched from JSONTestBaseURL/{StudentID).json
+# E.g. https://aqueous-shelf-29436.herokuapp.com/{studentID}.json
+
+# In case of any mismatch of student internship data from CSV file and JSON file program exits and prints data about
+# problematic student internship data.
+
+# This test was helpful for us because JSON data was generated automatically from a Google Forms documents from which
+# students send their internship information (subject day choose,
+# number of days they are going to work for that internship etc.) beforehand. On the other hand CSV data is created by
+# faculty members who evaluate student's internships. Consequently CSV document is susceptible to human error.
+
+# If you don't need this kind of test or feel okay to skip this test set 'integrityCheck' value to false. If you set
+# this value to true also remember to change value of JSONTestBaseURL to a appropriate value from whence you could
+# perform similar conformity checks.
+integrityCheck: False
+
+# As stated above change this value accordingly if you set integrityCheck value to true
+# Do not prepend URL with /
+JSONTestBaseURL: 'https://aqueous-shelf-29436.herokuapp.com'
+
+# All the variables below are needed for internship dispatch file which contains a list of student internships information.
+
+# Each row of the list contains following information: student ID, name, surname, company, internship start date,
+# internship end date, number of internship workdays, number of internship workdays conferred to student.
+
+# Apart from list some other information is present on dispatch file. Like names of the head and members of the
+# internship commission.
+
+# University, Institution name
+institutionName: 'Tekirdağ Namık Kemal Üniversitesi'
+# Department name
+departmentName: 'Bilgisayar Mühendisliği'
+# Head of the internship commission
+head: 'Jane Doe'
+# Member of the internship commission
+member1: 'John Doe'
+# Another member of the internship commission
+member2: 'Dona Rosa'
+
+educationYear: '2019-2020'
+
+# If integrity test is set to true whether a student started internship on or after beginDate and finished on or before
+# endDate is checked from CSV file. In case of any discrepancy integrity test fails.
+
+# Earliest start date for internships
+beginDate: '01.06.2020'
+#Latest end date for internships
+endDate: '18.10.2020'
+
+# During 2019 - 2020 summer period all internships are done online in our department and internships subjects are
+# given by internship commission of our department. In the past this was not the case. Sometimes dispatch file could
+# contain student internship information from both current online internships and older internships before Covid-19
+# (if students submit their internship documents very late to commission)
+
+# Depending on whether dispatch file contains information about only online student internships, only on site
+# (was the case before Covid-19) or mixture of two different text must be displayed on dispatch file.
+
+onlineText: 'staj raporlarına ait staj ödevi değerlendirme formları'
+onsiteText: 'staj defterlerine ait pratik çalışma belgeleri'
+onlineOnsiteText: 'staj raporlarına ait staj ödevi değerlendirme formları ile staj defterlerine ait pratik çalışma belgeleri'
+
