@@ -3,7 +3,7 @@ package sireader
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gusanmaz/InternshipFormGenerator2/si"
+	"github.com/gusanmaz/InternshipFormGenerator/si"
 	"io/ioutil"
 	"net/http"
 	"strconv"

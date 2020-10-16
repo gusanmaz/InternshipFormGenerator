@@ -1,6 +1,6 @@
 package sireader
 
-import "github.com/gusanmaz/InternshipFormGenerator2/globals"
+import "github.com/gusanmaz/InternshipFormGenerator/globals"
 
 var g globals.Config
 

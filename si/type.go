@@ -1,6 +1,6 @@
 package si
 
-import "github.com/gusanmaz/InternshipFormGenerator2/date"
+import "github.com/gusanmaz/InternshipFormGenerator/date"
 
 const(
 	Online = iota

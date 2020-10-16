@@ -2,8 +2,8 @@ package siwriter
 
 import (
 	"errors"
-	"github.com/gusanmaz/InternshipFormGenerator2/globals"
-	"github.com/gusanmaz/InternshipFormGenerator2/templates"
+	"github.com/gusanmaz/InternshipFormGenerator/globals"
+	"github.com/gusanmaz/InternshipFormGenerator/templates"
 	"io/ioutil"
 	"os"
 )

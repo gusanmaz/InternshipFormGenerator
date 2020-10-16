@@ -2,8 +2,8 @@ package sireader
 
 import (
 	"encoding/csv"
-	"github.com/gusanmaz/InternshipFormGenerator2/date"
-	"github.com/gusanmaz/InternshipFormGenerator2/si"
+	"github.com/gusanmaz/InternshipFormGenerator/date"
+	"github.com/gusanmaz/InternshipFormGenerator/si"
 	"os"
 	"strconv"
 	"strings"

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gusanmaz/InternshipFormGenerator2/globals"
-	"github.com/gusanmaz/InternshipFormGenerator2/si"
-	"github.com/gusanmaz/InternshipFormGenerator2/sireader"
-	"github.com/gusanmaz/InternshipFormGenerator2/siwriter"
+	"github.com/gusanmaz/InternshipFormGenerator/globals"
+	"github.com/gusanmaz/InternshipFormGenerator/si"
+	"github.com/gusanmaz/InternshipFormGenerator/sireader"
+	"github.com/gusanmaz/InternshipFormGenerator/siwriter"
 	"log"
 	"os"
 	"sort"

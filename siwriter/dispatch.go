@@ -2,8 +2,8 @@ package siwriter
 
 import (
 	"fmt"
-	"github.com/gusanmaz/InternshipFormGenerator2/si"
-	"github.com/gusanmaz/InternshipFormGenerator2/templates"
+	"github.com/gusanmaz/InternshipFormGenerator/si"
+	"github.com/gusanmaz/InternshipFormGenerator/templates"
 	"os"
 	"os/exec"
 	"path/filepath"
