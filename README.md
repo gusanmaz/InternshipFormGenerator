@@ -23,7 +23,7 @@ print and sign the form afterwards.
 Unfortunately students didn't conform to a single standard when they filled this fields.
 Some students to choose to capitalize their surnames but not everyone.
 There was variability between font family, font size and text color choices.
-Added to that form was a docx Word document. It was really annoying to see
+Added to that form was a docx Word document :man_facepalming: It was really annoying to see
 one page document rendered in multiple pages when you open it using Libre Office.
 
 If information about necessary information is recorded in a CSV file in proper way,
