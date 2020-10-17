@@ -1,4 +1,4 @@
-# A Case For Open Standards
+# A Case for Open Standards
 
 Open standards is a big issue in software world. 
 First of all I am not an expert on the topic but that doesn't make sensing
