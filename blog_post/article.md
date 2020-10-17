@@ -137,6 +137,9 @@ make some styling for each form like using same font family, capitalizing surnam
 then downloading document to hard drive. Repeating this task around 100 times was scary
 enough for me so that I ended up spending more time for automating this task.
 
+
+![Automation Meme](automation_meme.png)
+
 I think my choice had paid off in few different ways. First of all I had a hands-on lesson
 about obvious benefits of open standards and shared my experience by writing this article. 
 Along the way I got some insight about docx and Open Document formats learned about 
@@ -148,8 +151,6 @@ task in word processing I am now in a stronger position to tackle the hassle!
 You could check [my form automation project repository](https://github.com/gusanmaz/InternshipFormGenerator) to learn more about
 project's inner workings from its documentation or to adapt it to your own
 needs. 
-
-![Automation Meme](automation_meme.png)
 
 There is one step I skipped in the article about my attempts to tackle this paperwork
 problem. Before writing an automation program I created a website that would automatically generate
