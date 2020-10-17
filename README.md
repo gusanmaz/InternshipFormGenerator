@@ -57,7 +57,7 @@ Name/file path of this file should also be set from `config.yaml`
 
 A simple CSV file with fields header could give some insight about format of this value
 
-| Student ID | Student Name | Student Surname | Project Subject | Internship Begin Date | Internship End Date | Internship work-days | Confferred work-days |
+| Student ID | Student Name | Student Surname | Project Subject | Internship Begin Date | Internship End Date | Internship work-days | Conferred work-days |
 |------------|--------------|-----------------|-----------------|-----------------------|---------------------|----------------------|----------------------|
 | 1850506803 | John         | Doe             | GPT4            | 22.07.2020            | 23.08.2020          | 20                   | 15                   |
 | 1939567665 | Jane         | Doe             | Minix Squared   | 20.06.2020            | 20.08.2020          | 60                   | 60                   |
