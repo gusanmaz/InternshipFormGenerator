@@ -53,9 +53,9 @@ article](https://brattahlid.wordpress.com/2012/05/08/is-docx-really-an-open-stan
 Spoiler alert: According to article we couldn't say it is a true open standard. It would be more apt to view docx format as semi-open or
 pseudo-open standard. From articles I sifted throught about OpenXML's standardization process I sensed serious contention.
 
-![](/home/guvenc/Codes/go/src/github.com/gusanmaz/InternshipFormGenerator/blog_post/ooxml_oslo_demonstration.jpg)
+![oslo_demonstrations](ooxml_oslo_demonstration.jpg)
 
-**Demonstration against OOXML in Oslo, Norway in 2008**
+** Demonstration against OOXML in Oslo, Norway in 2008**
 
 Although I didn't do a through research on causes docx rendering
 problems on non-Microsoft Office products, I highly suspecy it is highly related
@@ -131,7 +131,7 @@ enough for me, so that I ended up spending more time for automating this task.
 
 ![Automation Meme](automation_meme.png)
 
-![](/home/guvenc/Codes/go/src/github.com/gusanmaz/InternshipFormGenerator/blog_post/automation_xkcd.png)
+![Automation XKCD](automation_xkcd.png)
 
 *Perils of automation* [from xkcd]([xkcd: The General Problem](https://xkcd.com/974/))
 
