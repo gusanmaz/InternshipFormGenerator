@@ -113,7 +113,7 @@ Finally I wrote a program that would be able to generate form documents automati
 
 I think fodt is a great format for making automation tasks of document creation easier. As far as I know there is no equivalent format for docx. I believe an equivalent format would expose Microsoft Office's implementation of OOXML specification and that kind of exposure probably won't fit into Microsoft's agenda well unless a paradigm shift happens regarding their OOXML format. 
 
-## ##Embracing DOCX
+## Embracing DOCX
 
 Just before finalizing this article I found out that I could have located varied text fields in docx form with more hardship than performing same task on fodt form documents. I could then write a form automation program with a more arduous work. This is not all good news though. Since there is no equivalent headless mode in Microsoft Office, my automation program wouldn't able to generate PDFs from DOCx documents. To refrain rendering problems I would end up using a friend's computer to print out many DOCx documents one by one instead of printing all form documents at once with help of a PDF CLI program such as pdfunite.  
 
